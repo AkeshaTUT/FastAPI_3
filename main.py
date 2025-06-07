@@ -1,3 +1,5 @@
+# Akezhan Seitkassym
+
 from fastapi import FastAPI, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from models import User, UserCreate, UserResponse, get_db
